@@ -34,11 +34,11 @@
   <code> Sreytouch Lang(Jessica) </code>
 </h3>
   <p align="center"> 
-  <a href="https://github.com/sreytouch">
+  <a href="https://github.com/SreytouchLang">
     <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
   </a>
 
-  <a href="https://www.linkedin.com/in/sreytouchlang/">
+  <a href="https://www.linkedin.com/in/sreytouch-lang/">
     <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
   </a>
 
