@@ -2,7 +2,7 @@
 
 <p align="center">This website is an opportunity to demonstrate a <b>Portfolio</b> of information about me and to provide further information (via links) about my work.<p>
 
-  ### <code>Live Demo</code> - **[Portfolio Website](https://sreytouch.github.io/)**
+  ### <code>Live Demo</code> - **[Portfolio Website](https://sreytouchlang.github.io/)**
 
 # Website Preview
   This is a portfolio of my work, including both my personal and academic projects.
@@ -35,19 +35,19 @@
 </h3>
   <p align="center"> 
   <a href="https://github.com/SreytouchLang">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
+    <img src="https://github.com/SreytouchLang/Sreytouch/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
   </a>
 
   <a href="https://www.linkedin.com/in/sreytouch-lang/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
+    <img src="https://github.com/SreytouchLang/Sreytouch/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
   </a>
 
   <a href="https://www.instagram.com/sreytouchlang/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
+    <img src="https://github.com/SreytouchLang/Sreytouch/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
   </a>
 
   <a href="mailto:atouch.it@gmail.com">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
+    <img src="https://github.com/SreytouchLang/Sreytouch/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
   </a>
 
 </p>
