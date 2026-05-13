@@ -117,8 +117,8 @@ const socialLinks = [
 const quickFacts = [
   { label: 'Location', value: 'California, United States' },
   { label: 'Opportunity', value: 'Full-time or contract' },
-  { label: 'Focus', value: 'iOS, mobile, and applied AI' },
-  { label: 'Strength', value: 'Implementation, testing, and release' }
+  { label: 'Focus', value: 'React Native, iOS, and applied AI' },
+  { label: 'Strength', value: 'Architecture, testing, and release' }
 ]
 
 const bestSkills = [
@@ -141,10 +141,10 @@ const bestSkills = [
 ]
 
 const summaryHighlights = [
-  '7+ years of professional development experience across analysis, development, testing, deployment, and maintenance.',
-  'Strong iOS foundation with Swift, SwiftUI, UIKit, Objective-C, XCTest, and Core Data.',
-  'Cross-platform delivery experience with React Native and Flutter for iOS and Android products.',
-  'Hands-on AI product work across recommendation systems, content generation, automation workflows, and data-driven features.'
+  '8+ years of hands-on experience architecting, leading, and shipping large-scale React Native, iOS Swift, and Kotlin applications.',
+  'Staff-level experience driving architecture decisions, engineering standards, PR culture, and mentorship while staying deeply involved in delivery.',
+  'Strong production ownership across notifications, offline sync, payments, testing, release management, and cross-platform mobile execution.',
+  'Hands-on AI product work across LLM chat, predictive personalization, content generation, automation workflows, and data-driven product features.'
 ]
 
 const skillGroups = [
@@ -194,32 +194,68 @@ const skillGroups = [
 
 const experienceEntries = [
   {
-    role: 'Mobile Application Developer',
-    company: 'LABS LIMITED',
-    period: 'February 2020 - Present',
+    role: 'Staff Mobile Engineer - React Native & iOS Lead',
+    company: 'Coinable Inc. · Palo Alto, CA (remote)',
+    period: 'Apr 2024 - Present',
     summary:
-      'Build and optimize iOS applications while partnering with product and engineering teams to deliver client-facing mobile solutions.',
+      'Set technical direction for the mobile organization while leading React Native, native iOS, and AI-enabled product delivery from architecture through release.',
     bullets: [
-      'Developed and implemented iOS applications and user-facing mobile features.',
-      'Supported object-oriented programming, testing practices, and agile delivery workflows.',
-      'Collaborated across teams to ship technology solutions aligned with product and business goals.'
+      'Authored the React Native New Architecture RFC (JSI + Hermes), cutting JS thread bottlenecks by 40% and preparing the platform for 8M+ user scale.',
+      'Led and mentored a cross-functional mobile team while remaining a primary contributor across Redux and TypeScript architecture, native Swift and Kotlin bridge modules, and CI/CD design.',
+      'Owned end-to-end delivery of push notifications, offline-first sync, and in-app payments from technical scoping through rollout and incident response.',
+      'Defined coding standards, PR review culture, and ADR processes that reduced regression rate by 35% and onboarding time for new engineers by 50%.',
+      'Built observability with Datadog, Rudderstack, and Segment, and integrated AI-powered chatbot and predictive personalization features with AWS SageMaker and OpenAI API.'
     ],
     tech:
-      'Swift, RxSwift, REST APIs, CocoaPods, Carthage, Xcode, Git, GitLab, Jira, CircleCI'
+      'React Native, TypeScript, Redux, Swift, Kotlin, JSI, Hermes, Datadog, Segment, Rudderstack, AWS SageMaker, OpenAI API, CI/CD'
   },
   {
-    role: 'Senior Mobile Application Developer',
-    company: 'SLASH CO. INC.',
-    period: 'August 2016 - February 2020',
+    role: 'Senior Mobile Engineer',
+    company: 'LTLabs Co., Ltd. · Remote',
+    period: 'Feb 2020 - Mar 2024',
     summary:
-      'Contributed to large-scale enterprise mobile software, including internal iOS libraries, implementation planning, and production delivery.',
+      'Architected and scaled React Native and native iOS applications for high-traffic products while driving mobile architecture, release quality, and team growth.',
     bullets: [
-      'Helped build complex enterprise mobile applications and iOS libraries.',
-      'Prepared functional specifications, wrote production code, and supported release-ready implementations.',
-      'Participated in sprint planning, estimation, and cross-functional delivery with product and architecture stakeholders.'
+      'Architected and led React Native and native iOS delivery for a platform serving 100K+ daily active users, improving user experience and system performance by 25%.',
+      'Introduced MVVM and Clean Architecture patterns that reduced coupling and helped the mobile codebase scale across 6 squads.',
+      'Built Swift and Objective-C features with XCTest and XCUITest coverage, coordinated TestFlight beta programs, and published multiple App Store releases.',
+      'Added Kotlin-based Android modules bridged into the React Native layer to accelerate platform-specific delivery without duplicating business logic.',
+      'Established Bitrise and Jenkins CI/CD, plus analytics and crash monitoring integrations that reduced mean time to detect mobile incidents.',
+      'Mentored 5 junior and mid-level mobile engineers through pair programming, code reviews, and weekly architecture sessions.'
     ],
     tech:
-      'Objective-C, Swift, UIKit, Fastlane, Jenkins, GitLab, GitHub, Jira, CocoaPods, SourceTree'
+      'React Native, TypeScript, Swift, Objective-C, Kotlin, Redux, XCTest, XCUITest, Bitrise, Jenkins, Firebase, Amplitude, Splunk'
+  },
+  {
+    role: 'Software Engineer - Mobile',
+    company: 'SLASH CO. INC. · Remote',
+    period: 'Apr 2017 - Feb 2020',
+    summary:
+      'Built government-scale and startup mobile products across React Native and iOS, with deep ownership of release management, SDK reuse, and performance work.',
+    bullets: [
+      'Designed and shipped React Native and iOS Swift applications for government-scale platforms and startup products.',
+      'Led App Store submission strategy and release management across multiple product lines.',
+      'Built an internal mobile SDK for push notifications, deep linking, and offline sync, reducing duplicated infrastructure by 60% across 3 product teams.',
+      'Resolved critical performance bottlenecks through memory profiling and GCD threading optimizations, and modernized legacy Objective-C code to Swift.',
+      'Coordinated sprint planning and milestone delivery with scrum masters, solution architects, and product owners in a fast-moving startup environment.'
+    ],
+    tech:
+      'React Native, TypeScript, Swift, Objective-C, GCD, Push Notifications, Deep Linking, Offline Sync, Agile Delivery, App Store Release Management'
+  },
+  {
+    role: 'Mobile Engineer',
+    company: 'Pathmazing Co., Ltd. · Phnom Penh',
+    period: 'Oct 2015 - Apr 2017',
+    summary:
+      'Shipped iOS and watchOS applications end-to-end while helping the team mature reusable components, documentation, and estimation practices.',
+    bullets: [
+      'Delivered iOS and watchOS applications from requirements gathering through App Store deployment.',
+      'Built internal component libraries reused across multiple mobile products.',
+      'Mentored junior teammates on Swift patterns, Agile workflows, and sprint estimation.',
+      'Contributed technical documentation and cross-team engineering practices that improved delivery consistency.'
+    ],
+    tech:
+      'Swift, UIKit, watchOS, App Store Deployment, Component Libraries, Agile'
   }
 ]
 
@@ -704,7 +740,7 @@ const featuredProjects = projects
 const selectedProjects = featuredProjects.slice(0, 6)
 
 const profileMetrics = [
-  { value: '7+', label: 'Years in professional development' },
+  { value: '8+', label: 'Years in professional development' },
   { value: '20', label: 'Mobile app builds' },
   { value: '13', label: 'Certificates' },
   { value: String(projects.length), label: 'Public repositories' }
@@ -809,7 +845,7 @@ function App() {
               <p className="eyebrow">Profile</p>
               <h3>Sreytouch Lang(Jessica)</h3>
               <p>
-                iOS, React Native, Flutter, and AI product engineer based in
+                iOS, React Native, Kotlin, and AI product engineer based in
                 California and open to relocate.
               </p>
             </div>
@@ -817,7 +853,7 @@ function App() {
 
           <div className="hero-copy">
             <div className="hero-topline">
-              <p className="eyebrow">Senior mobile developer</p>
+              <p className="eyebrow">Senior mobile engineer</p>
               <span className="status-pill">Open to work</span>
             </div>
 
@@ -829,9 +865,10 @@ function App() {
 
             <p className="lede">
               I am a California-based(open to relocate) software engineer with
-              7+ years of professional experience building native iOS and
-              cross-platform mobile products from implementation through
-              testing, release, and ongoing iteration.
+              8+ years of professional experience building native iOS,
+              React Native, and cross-platform mobile products from
+              architecture and implementation through testing, release, and
+              ongoing iteration.
             </p>
 
             <div className="hero-actions">
