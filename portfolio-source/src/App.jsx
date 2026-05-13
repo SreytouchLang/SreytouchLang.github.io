@@ -734,26 +734,6 @@ function App() {
 
   return (
     <div className={`page-shell${theme === 'dark' ? ' theme-dark' : ''}`}>
-      <nav className="side-rail" aria-label="Primary">
-        {navLinks.map((link) => (
-          <a
-            key={link.label}
-            className={`side-rail__link${
-              link.href === '#home' ? ' side-rail__link--active' : ''
-            }`}
-            href={link.href}
-            aria-label={link.label}
-            title={link.label}
-          >
-            <NavIcon icon={link.icon} />
-            <span className="side-rail__tooltip" aria-hidden="true">
-              {link.label}
-            </span>
-            <span className="visually-hidden">{link.label}</span>
-          </a>
-        ))}
-      </nav>
-
       <header className="site-header">
         <div className="site-header__inner">
           <a className="brand" href="#home">
@@ -792,6 +772,26 @@ function App() {
           </div>
         </div>
       </header>
+
+      <nav className="side-rail" aria-label="Primary">
+        {navLinks.map((link) => (
+          <a
+            key={link.label}
+            className={`side-rail__link${
+              link.href === '#home' ? ' side-rail__link--active' : ''
+            }`}
+            href={link.href}
+            aria-label={link.label}
+            title={link.label}
+          >
+            <NavIcon icon={link.icon} />
+            <span className="side-rail__tooltip" aria-hidden="true">
+              {link.label}
+            </span>
+            <span className="visually-hidden">{link.label}</span>
+          </a>
+        ))}
+      </nav>
 
       <main className="portfolio">
         <section id="home" className="section-card hero">
