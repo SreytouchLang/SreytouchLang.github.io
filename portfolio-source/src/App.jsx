@@ -261,14 +261,14 @@ const experienceEntries = [
 
 const educationEntries = [
   {
-    degree: 'Master of Computer Science - IT',
-    school: 'Westcliff University',
-    period: '2025 - 2027'
+    degree: 'M.S. Computer & Information Science',
+    school: 'Westcliff University · Focus: Mobile Application & Applied ML/AI',
+    period: 'Feb 2025 - Mar 2027'
   },
   {
-    degree: 'Bachelor of Computer Science',
-    school: 'Royal of Phnom Penh',
-    period: '2012 - 2016'
+    degree: 'B.S. Computer & Information Science',
+    school: 'Royal University of Phnom Penh · GPA 3.9 / 4.0',
+    period: 'Aug 2012 - Apr 2016'
   }
 ]
 
