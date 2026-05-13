@@ -635,7 +635,7 @@ button {
   grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.95fr);
   grid-template-areas:
     "copy portrait"
-    "copy aside";
+    "aside aside";
   align-items: start;
   gap: 1.35rem;
 }
@@ -666,6 +666,8 @@ button {
 
 .hero-aside {
   grid-area: aside;
+  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.95fr);
+  align-items: start;
 }
 
 .hero-topline {
@@ -874,6 +876,11 @@ button {
   gap: 0.7rem;
 }
 
+.hero-summary-copy {
+  display: grid;
+  gap: 1rem;
+}
+
 .portrait-frame {
   position: relative;
   overflow: hidden;
@@ -951,6 +958,10 @@ button {
   background:
     radial-gradient(circle at top right, rgba(22, 61, 143, 0.06), transparent 28%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(243, 248, 255, 0.94));
+}
+
+.hero-aside .metric-grid {
+  height: 100%;
 }
 
 .summary-list,
@@ -1446,6 +1457,10 @@ button {
   .hero-portrait-card {
     width: min(100%, 420px);
     margin: 0 auto;
+  }
+
+  .hero-aside {
+    grid-template-columns: 1fr;
   }
 
   .site-links {

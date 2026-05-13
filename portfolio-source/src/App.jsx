@@ -865,12 +865,14 @@ function App() {
           </div>
 
           <aside className="hero-aside">
-            <p className="eyebrow">Professional summary</p>
-            <ul className="summary-list">
-              {summaryHighlights.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
+            <div className="hero-summary-copy">
+              <p className="eyebrow">Professional summary</p>
+              <ul className="summary-list">
+                {summaryHighlights.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
 
             <div className="metric-grid">
               {profileMetrics.map((metric) => (
