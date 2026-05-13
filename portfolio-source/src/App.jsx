@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import profileImage from './assets/sreytouch-profile.jpg'
 
 const navLinks = [
   { label: 'Home', href: '#home', icon: 'home' },
@@ -795,6 +796,25 @@ function App() {
 
       <main className="portfolio">
         <section id="home" className="section-card hero">
+          <div className="hero-portrait-card">
+            <div className="portrait-frame">
+              <img
+                className="portrait-image"
+                src={profileImage}
+                alt="Portrait of Sreytouch Lang(Jessica)"
+              />
+            </div>
+
+            <div className="portrait-copy">
+              <p className="eyebrow">Profile</p>
+              <h3>Sreytouch Lang(Jessica)</h3>
+              <p>
+                iOS, React Native, Flutter, and AI product engineer based in
+                California and open to relocate.
+              </p>
+            </div>
+          </div>
+
           <div className="hero-copy">
             <div className="hero-topline">
               <p className="eyebrow">Senior mobile developer</p>

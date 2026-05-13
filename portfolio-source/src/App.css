@@ -633,10 +633,15 @@ button {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.95fr);
+  grid-template-areas:
+    "copy portrait"
+    "copy aside";
+  align-items: start;
   gap: 1.35rem;
 }
 
 .hero-copy,
+.hero-portrait-card,
 .hero-aside,
 .about-copy,
 .about-card,
@@ -647,6 +652,20 @@ button {
 .catalog-card {
   display: grid;
   gap: 1rem;
+}
+
+.hero-copy {
+  grid-area: copy;
+}
+
+.hero-portrait-card {
+  grid-area: portrait;
+  align-content: start;
+  padding: 1rem;
+}
+
+.hero-aside {
+  grid-area: aside;
 }
 
 .hero-topline {
@@ -797,6 +816,7 @@ button {
 
 .fact-card,
 .metric-card,
+.hero-portrait-card,
 .hero-aside,
 .about-card,
 .skill-card,
@@ -817,6 +837,7 @@ button {
 
 .page-shell.theme-dark .fact-card,
 .page-shell.theme-dark .metric-card,
+.page-shell.theme-dark .hero-portrait-card,
 .page-shell.theme-dark .hero-aside,
 .page-shell.theme-dark .about-card,
 .page-shell.theme-dark .skill-card,
@@ -851,6 +872,50 @@ button {
 .hero-skill-group {
   display: grid;
   gap: 0.7rem;
+}
+
+.portrait-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  aspect-ratio: 4 / 4.45;
+  background:
+    radial-gradient(circle at top center, rgba(36, 95, 188, 0.16), transparent 48%),
+    linear-gradient(180deg, rgba(223, 233, 255, 0.8), rgba(246, 249, 255, 0.56));
+}
+
+.page-shell.theme-dark .portrait-frame {
+  background:
+    radial-gradient(circle at top center, rgba(79, 134, 255, 0.2), transparent 48%),
+    linear-gradient(180deg, rgba(18, 30, 52, 0.96), rgba(10, 18, 31, 0.94));
+}
+
+.portrait-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 62% 18%;
+}
+
+.portrait-copy {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.portrait-copy h3 {
+  margin: 0;
+  font-family: var(--serif);
+  letter-spacing: -0.03em;
+  font-size: 1.45rem;
+  color: var(--ink);
+}
+
+.portrait-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.7;
 }
 
 .skill-pill-row,
@@ -1371,6 +1436,18 @@ button {
     align-items: flex-start;
   }
 
+  .hero {
+    grid-template-areas:
+      "portrait"
+      "copy"
+      "aside";
+  }
+
+  .hero-portrait-card {
+    width: min(100%, 420px);
+    margin: 0 auto;
+  }
+
   .site-links {
     justify-content: flex-start;
   }
@@ -1435,6 +1512,19 @@ button {
   .section-card {
     padding: 1.4rem;
     border-radius: 28px;
+  }
+
+  .hero-portrait-card {
+    width: 100%;
+    padding: 0.95rem;
+  }
+
+  .portrait-frame {
+    aspect-ratio: 4 / 4.4;
+  }
+
+  .portrait-copy {
+    justify-items: start;
   }
 
   .side-rail {
@@ -1526,6 +1616,23 @@ button {
   .brand {
     font-size: clamp(1rem, 6.2vw, 1.3rem);
     padding: 0.68rem 0.9rem;
+  }
+
+  .hero-portrait-card {
+    padding: 0.85rem;
+  }
+
+  .portrait-frame {
+    aspect-ratio: 1 / 1.08;
+  }
+
+  .portrait-copy h3 {
+    font-size: 1.24rem;
+  }
+
+  .portrait-copy p {
+    font-size: 0.9rem;
+    line-height: 1.62;
   }
 
   .site-links {
