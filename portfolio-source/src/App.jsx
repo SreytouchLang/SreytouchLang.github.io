@@ -115,7 +115,7 @@ const socialLinks = [
 ]
 
 const quickFacts = [
-  { label: 'Location', value: 'California, United States' },
+  { label: 'Location', value: 'California, United States (Open to relocate)' },
   { label: 'Opportunity', value: 'Full-time or contract' },
   { label: 'Focus', value: 'React Native, iOS, and applied AI' },
   { label: 'Strength', value: 'Architecture, testing, and release' }
