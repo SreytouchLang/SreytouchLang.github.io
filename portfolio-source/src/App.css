@@ -1562,40 +1562,6 @@ button {
   }
 
   .side-rail {
-    position: static;
-    left: auto;
-    top: auto;
-    bottom: auto;
-    transform: none;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    gap: 0.55rem;
-    padding: 0.55rem;
-    width: min(100% - 1rem, 1180px);
-    margin: 0 auto 0.85rem;
-    overflow-x: auto;
-    border-radius: 999px;
-    animation: none;
-    box-shadow: 0 14px 26px rgba(17, 24, 39, 0.12);
-    scrollbar-width: none;
-  }
-
-  .side-rail::-webkit-scrollbar {
-    display: none;
-  }
-
-  .side-rail__link {
-    width: 2.95rem;
-    height: 2.95rem;
-    flex: 0 0 auto;
-  }
-
-  .side-rail__link svg {
-    width: 1.2rem;
-    height: 1.2rem;
-  }
-
-  .side-rail__tooltip {
     display: none;
   }
 
@@ -1694,23 +1660,6 @@ button {
   .theme-toggle {
     width: 2.5rem;
     height: 2.5rem;
-  }
-
-  .side-rail {
-    gap: 0.45rem;
-    padding: 0.45rem;
-    width: min(100% - 0.75rem, 1180px);
-    margin-bottom: 0.75rem;
-  }
-
-  .side-rail__link {
-    width: 2.55rem;
-    height: 2.55rem;
-  }
-
-  .side-rail__link svg {
-    width: 1.08rem;
-    height: 1.08rem;
   }
 
   .hero-topline {
